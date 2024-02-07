@@ -6,7 +6,13 @@
   <link rel="stylesheet" type="text/css" href="base.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  <script>
   $(function(){
-    // ここに処理を記述
+    // ここに処理を記際
+    $("#button").on("click",function(){
+    $(this).animate({
+        'marginLeft': '35%',
+        'marginTop': '10%'
+    }, 3000);
+    })
   });
   </script>
 </head>
